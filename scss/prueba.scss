@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+}
+
+.menu {
+    background-color: transparent;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding-bottom: 2px
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu ul li a {
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Red Rose', cursive;
+}
+
+.menu ul li:hover {
+    background-color: #6569a8;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+.uno {
+    background-color: black;
+    height: 500px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 75px;
+    margin-top: 2px;
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 4px 4px 6px black;
+}
+
+.titulos {
+    color: white;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.imagenes {
+    font-size: 10px;
+}
+.imagen{
+	border-radius: 20px;
+}
+
+.dos {
+    background-color: transparent;
+    width: 350px;
+    height: 500px;
+    float: right;
+    padding-top: 50px;
+}
+
+.img-fluid {
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.foto {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+footer {
+    background-color: #59564f;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+
+.titulos__nota {
+    color: black;
+}
+
+.titulos__nota--capitalize {
+    background-color: blueviolet;
+    text-transform: capitalize;
+}
+
+.titulos__nota--lowercase {
+    background-color: rgb(105, 230, 22);
+    text-transform: lowercase;
+}
+
+.titulos__nota--initial {
+    background-color: red;
+    text-transform: initial;
+}
+
+.titulos__nota--unset {
+    background-color: yellow;
+    text-transform: unset;
+ }
+
+$gris: #0e1117;
+
+$letra:'Red Rose', cursive;
+
+
+.sponsors {
+ background-color: $gris;}
+ 
+ .imagen{
+ background-color: $gris;
+ }
+ .entrevista{
+ background-color: $gris;
+ 
+ }
+ p {
+ font-family: $letra;
+ }
+ .index{
+ background-color: $gris;
+ }
+ .comollegar{
+ background-color: $gris;
+ }
+ .historia{
+ background-color: $gris;
+ }
