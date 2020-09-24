@@ -1,6 +1,6 @@
 body {
     background: linear-gradient(to bottom, #000080, #000080,  white);
-    padding: 0px;
+    padding: 0;
     margin: 0;
 }
 
@@ -109,6 +109,8 @@ p {
 }
 
 .logoinstagram {
+    background-color:rgb(104, 81, 84);
+    border-radius: 20px;
     position: fixed;
     margin-top: 220px;
     padding-left: 0;
@@ -123,6 +125,7 @@ p {
 }
 
 .logoinstagram:hover {
+    
     transition: all 0, 9s;
     transform: scale(1.2, 1.2);
     z-index: 500;
